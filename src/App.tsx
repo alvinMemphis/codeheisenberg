@@ -13,20 +13,16 @@ import PrivacyPolicy from './Screens/privacypolicy';
 function App() {
   return (
     <Router>
-    <div>
-        <Home/>
-
       {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
       <Switch>
-        <Route path="/">
-          <Home />
+        <Route exact path="/">
+         <Home/>
         </Route>
         <Route path="/privacy">
           <PrivacyPolicy />
         </Route>
       </Switch>
-    </div>
   </Router>
   );
 }
