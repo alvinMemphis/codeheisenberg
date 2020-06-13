@@ -12,9 +12,7 @@ import PrivacyPolicy from './Screens/privacypolicy';
 
 function App() {
   return (
-    <Router>
-      {/* A <Switch> looks through its children <Route>s and
-          renders the first one that matches the current URL. */}
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/">
          <Home/>
