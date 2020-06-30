@@ -12,9 +12,10 @@ import PrivacyPolicy from './Screens/privacypolicy';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <div>
+    <Router basename="/codeheisenberg" >
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/" >
          <Home/>
         </Route>
         <Route path="/privacy">
@@ -22,6 +23,7 @@ function App() {
         </Route>
       </Switch>
   </Router>
+  </div>
   );
 }
 
