@@ -1,15 +1,15 @@
 import React from 'react'
-import logo from '../logo.svg';
-import '../App.css';
+import logo from '../../logo.svg';
+import '../../App.css';
 
-function PrivacyPolicy(){
+function PrivacyRentPay(){
 
         return (
         <div>
                <body>
     <h2>PRIVACY POLICY MODEL FOR MOBILE APPLICATIONS</h2> 
     <p></p> 
-    <p>This privacy policy governs your use of the software application Makanika (“Application”) for mobile devices that was created by&nbsp;Developer Company GDExperts.&nbsp;The Application is&nbsp;Basic description of the app (features, functionality and content)&nbsp;</p> 
+    <p>This privacy policy governs your use of the software application RentPay (“Application”) for mobile devices that was created by&nbsp;Developer Company GDExperts.&nbsp;The Application is&nbsp;Basic description of the app (features, functionality and content)&nbsp;</p> 
     <h4>&nbsp;</h4> 
     <h4>What information does the Application obtain and how is it used?</h4> 
     <p></p> 
@@ -73,4 +73,4 @@ function PrivacyPolicy(){
 
 
 
-     export default PrivacyPolicy
+     export default PrivacyRentPay;

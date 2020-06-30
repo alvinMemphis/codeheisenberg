@@ -7,20 +7,18 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './Home/Home';
-import PrivacyPolicy from './Screens/privacypolicy';
+import PrivacyMakanika from './Screens/privacy/makanika';
+import PrivacyRentPay from './Screens/privacy/privacypolicy';
+import Home from './Screens/Home/Home';
 
 function App() {
   return (
     <div>
     <Router basename="/codeheisenberg" >
       <Switch>
-        <Route exact path="/" >
-         <Home/>
-        </Route>
-        <Route path="/privacy">
-          <PrivacyPolicy />
-        </Route>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/privacy/makanika" component={PrivacyMakanika}/>
+          <Route exact path="/privacy/rentpay" component={PrivacyRentPay}/>
       </Switch>
   </Router>
   </div>
