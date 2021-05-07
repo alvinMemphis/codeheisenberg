@@ -16,7 +16,6 @@ import Header from './components/common/Header';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faHome, faGlobe, faPhoneAlt, faEnvelope, faPhoneSquare, faFax } from '@fortawesome/free-solid-svg-icons';
 // import '@fortawesome/fontawesome-free';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/App.css';
 
 library.add(faHome, faGlobe, faEnvelope, faPhoneAlt, faPhoneSquare, faFax);
